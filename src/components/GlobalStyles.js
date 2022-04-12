@@ -8,4 +8,5 @@ export const GlobalStyles = createGlobalStyle`
   html, body{height:100%;}
   body.overlay-open{overflow:hidden;}
   body, input{font-family:"Montserrat", Arial, sans-serif;}
+  
 `;

@@ -5,7 +5,7 @@ import { colors } from "./Tokens";
 
 export const Wrapper = styled.div`
   background-color: ${({ color }) => colors[color]};
-  background-image: url(${bg});
+  background-image: url();
   background-size: cover;
   background-position: center;
   display: flex;
@@ -18,6 +18,5 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   color: ${colors.purple};
-  padding:50.2rem;
+  padding:3.2rem;
 `;
-//padding: 3.2
